@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AZUL-APP:build:production"
+              "buildTarget": "AZUL-APP:build:production"
             },
             "development": {
-              "browserTarget": "AZUL-APP:build:development"
+              "buildTarget": "AZUL-APP:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AZUL-APP:build"
+            "buildTarget": "AZUL-APP:build"
           }
         },
         "test": {
